@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0498DDDA-5EB7-4037-8FE0-619B55A0F940}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA6DDE3F-93D0-4DD9-B0F7-9CEFE5B0C7E9}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AngularNet2", "src\AngularNet2\AngularNet2.xproj", "{673ACFDB-5815-4B50-94D2-B4A3862B3BDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{673ACFDB-5815-4B50-94D2-B4A3862B3BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{673ACFDB-5815-4B50-94D2-B4A3862B3BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{673ACFDB-5815-4B50-94D2-B4A3862B3BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{673ACFDB-5815-4B50-94D2-B4A3862B3BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{673ACFDB-5815-4B50-94D2-B4A3862B3BDA} = {0498DDDA-5EB7-4037-8FE0-619B55A0F940}
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = e149cf78-8085-4960-8eba-d0cc9043d2e2
+	EndGlobalSection
+EndGlobal

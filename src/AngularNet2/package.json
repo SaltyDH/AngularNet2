@@ -1,0 +1,32 @@
+{
+  "name": "AngularNet2",
+  "version": "0.1.0",
+  "description": "AngularJS 2.0 using TypeScript running in MVC6",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp serve"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "del": "~2.0.2",
+    "gulp": "~3.9.0",
+    "gulp-livereload": "~3.8.1",
+    "gulp-sequence": "~0.4.1",
+    "gulp-tsc": "~1.1.1",
+    "gulp-typescript": "~2.9.2",
+    "gulp-sourcemaps": "~1.6.0",
+    "gulp-uglify": "",
+    "browser-sync": "~2.9.11",
+    "open": "~0.0.5",
+    "typescript": "~1.6.2",
+
+    "bootstrap": "~3.3.5",
+    "es6-shim": "~0.33.8",
+    "lodash": "~3.10.1",
+    "systemjs": "~0.19.5",
+    "angular2": "~2.0.0-alpha.45"
+  }
+}

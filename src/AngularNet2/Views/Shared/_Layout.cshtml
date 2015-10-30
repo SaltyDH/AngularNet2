@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/">
+    <meta charset="utf-8" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AngularNet2</title>
+      @*<link rel="stylesheet" href="/app/lib/bootstrap/dist/css/bootstrap.min.css"/>*@
+  </head>
+  <body>
+  
+    @RenderBody()
+    
+	<script src="~/app/lib/systemjs/dist/system.js"></script>
+
+    <script>
+        System.config({
+            baseURL: '/app',
+            defaultJSExtensions: true
+        });
+    </script>
+
+    <!-- Angular 2 -->
+    <script src="~/app/lib/angular2/bundles/angular2.dev.js"></script>
+    
+    <!-- Application Bootstrap -->
+    <script>
+        System.import('home.js');
+    </script>
+  </body>
+</html>
